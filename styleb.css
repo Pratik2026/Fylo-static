@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    background-color: hsl(217, 28%, 15%);
+    height: 10vh;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 30px;
+}
+nav ul{
+    display: flex;
+    margin-right: 10px;
+}
+nav ul li{
+    color: white;
+    list-style: none;
+    padding: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: hsl(218, 28%, 13%);
+   
+}
+.main1{
+    background-color: hsl(217, 28%, 15%);
+    position: relative;
+}
+.curvy img{
+    width: 100%;
+    height: 100%;
+}
+.write h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+.write p{
+    color: white;
+    text-align: center;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    background-color: hsl(217, 28%, 15%);
+    height: 50vh;
+}
+.write{
+    position: absolute;
+    top: 25px;
+    left: 35%;
+}
+.btn{
+    display: block;
+    height: 30px;
+    background-color:   hsl(198, 60%, 50%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 100px;
+    border-radius: 12px;
+    color: white;
+    font-weight: bold;
+    border: 2px solid  hsl(198, 60%, 50%);
+}
+.btn:hover{
+    background-color: #333;
+    cursor: pointer;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+    color: white;
+    text-align: center;
+    
+}
+.row1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row2{
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+.row2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row1 div h2{
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 0px;
+    font-weight: 400;
+}
+.row2 div h2{
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 0px;
+    font-weight: 400;
+}
+.row3{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.row3 div h1{
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 0px;
+    margin-top: 100px;
+    font-weight: 400;
+}
+.underline a{
+    color: hsl(198, 60%, 50%);
+    text-decoration-color: hsl(198, 60%, 50%);
+}
+.underline{
+    display: flex;
+    padding: 20px 0px;
+}
+.underline img{
+    margin-left: 10px;
+}
+.quote{
+    margin-left: 100px;
+    margin-top: 44px;
+}
+.row4{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    margin-bottom: 230px;
+}
+.review{
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    padding: 4px 10px;
+}
+.review img{
+    height: 20px;
+    border-radius: 100%;
+    padding: 20px;
+}
+.name{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    font-size: 10px;
+}
+.earlyaccess h2{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    padding: 15px 0px;
+}
+.earlyaccess{
+    position: absolute;
+    bottom: 82%;
+    left: 25%;
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    background-color: hsl(219, 30%, 18%);
+    box-sizing: border-box;
+    border: 2px solid hsl(219, 30%, 18%);
+    width: 600px;
+    height: 200px;
+    margin-top: 30px;
+}
+.needed{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.sbar{
+    display: block;
+    height: 20px;
+    width: 200px;
+    background-color: white;
+    color: #333;
+    border-radius: 12px;
+    margin-right: 15px;
+}
+.sbar input{
+    padding: 0px 10px;
+    text-align: left;
+    height: 20px;
+    width: 200px;
+    border-radius: 12px;
+    border: 2px solid white;
+    
+}
+button{
+    height: 25px;
+    width: 150px;
+    border-radius: 12px;
+    background-color: hsl(198, 60%, 50%);
+    color: white;
+    margin-left: 30px;
+    border: 2px solid hsl(198, 60%, 50%);
+}
+button:hover{
+    background-color: #333;
+    font-weight: bold;
+    cursor: pointer;
+}
+footer{
+    background-color: hsl(216, 53%, 9%);
+    height: 400px;
+    position: relative;
+}
+.last{
+    display: flex;
+    height: 400px;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.logo_{
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+}
+.phone {
+    display: flex;
+    padding: 20px 0px;
+}
+.phone p{
+    margin-left: 20px;
+}
+.email p{
+    margin-left: 20px;
+}
+.email{
+    display: flex;
+}
+.col3 ul li{
+    list-style: none;
+    padding: 8px 0px;
+}
+.col3 ul{
+    margin-top: 85px;
+}
+.col4 ul li{
+    list-style: none;
+    padding: 8px 0px;
+}
+.col4 ul{
+    margin-top: 55px;
+}
+.last .col5{
+    margin-top: 10px;
+    
+}
+.col5 img{
+    height: 25px;
+    border-radius: 100%;
+    background-color: #f4f4f4;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+
